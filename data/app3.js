@@ -52,7 +52,7 @@ organs.forEach(organ => {
 // Set a timeout to wait for the data processing to (hopefully) complete
 setTimeout(() => {
   drawChart(counts);
-}, 1000); // Waits 5 seconds before calling drawChart
+}, 3000); // Waits 5 seconds before calling drawChart
 
 
 // Function to draw the chart using D3.js
